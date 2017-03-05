@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BertScoutView.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="KindleFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\BERT\Kindle\Documents</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

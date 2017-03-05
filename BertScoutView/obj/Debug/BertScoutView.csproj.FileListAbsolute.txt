@@ -1,0 +1,10 @@
+D:\Bert\BertScoutView\BertScoutView\bin\Debug\BertScoutView.exe.config
+D:\Bert\BertScoutView\BertScoutView\bin\Debug\BertScoutView.exe
+D:\Bert\BertScoutView\BertScoutView\bin\Debug\BertScoutView.pdb
+D:\Bert\BertScoutView\BertScoutView\obj\Debug\BertScoutView.FormMain.resources
+D:\Bert\BertScoutView\BertScoutView\obj\Debug\BertScoutView.Properties.Resources.resources
+D:\Bert\BertScoutView\BertScoutView\obj\Debug\BertScoutView.csproj.GenerateResource.Cache
+D:\Bert\BertScoutView\BertScoutView\obj\Debug\BertScoutView.exe
+D:\Bert\BertScoutView\BertScoutView\obj\Debug\BertScoutView.pdb
+D:\BERT\BertScoutView\BertScoutView\obj\Debug\BertScoutView.csprojResolveAssemblyReference.cache
+D:\BERT\BertScoutView\BertScoutView\bin\Debug\Common.JSON.dll
