@@ -68,7 +68,7 @@
             this.Name = "FormTeamPix";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FormTeamPix";
+            this.Text = "Robot Picture";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTeam)).EndInit();
             this.ResumeLayout(false);
 

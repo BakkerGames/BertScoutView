@@ -7,7 +7,8 @@ namespace BertScoutView
 {
     public partial class FormMain : Form
     {
-        private int syncDBVersion = 24;
+        private int minDBVersion = 24;
+        private int currDBVersion = 25;
 
         private JSONObject allPit;
         private JSONObject allStand;
@@ -70,14 +71,14 @@ namespace BertScoutView
             else
             {
                 allPit = new JSONObject();
-                allPit["dbversion"] = syncDBVersion;
+                allPit["dbversion"] = currDBVersion;
                 allPit["pit_data"] = new JSONArray();
             }
 
             foreach (string fileName in Directory.GetFiles(filePath, "*_pit.json"))
             {
                 JSONObject tempJO = JSONObject.FromString(File.ReadAllText($"{fileName}"));
-                if (!tempJO.ContainsKey("dbversion") || (int)tempJO["dbversion"] < syncDBVersion)
+                if (!tempJO.ContainsKey("dbversion") || (int)tempJO["dbversion"] < minDBVersion)
                 {
                     continue;
                 }
@@ -112,14 +113,14 @@ namespace BertScoutView
             else
             {
                 allStand = new JSONObject();
-                allStand["dbversion"] = syncDBVersion;
+                allStand["dbversion"] = currDBVersion;
                 allStand["stand_data"] = new JSONArray();
             }
 
             foreach (string fileName in Directory.GetFiles(filePath, "*_stand.json"))
             {
                 JSONObject tempJO = JSONObject.FromString(File.ReadAllText($"{fileName}"));
-                if (!tempJO.ContainsKey("dbversion") || (int)tempJO["dbversion"] < syncDBVersion)
+                if (!tempJO.ContainsKey("dbversion") || (int)tempJO["dbversion"] < minDBVersion)
                 {
                     continue;
                 }

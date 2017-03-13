@@ -34,6 +34,7 @@ namespace BertScoutView
                 labelTeamNumberValue.Text = team["team"].ToString();
                 labelNameValue.Text = team["team_name"].ToString();
                 labelYearsValue.Text = team["team_years"].ToString();
+                labelMembersValue.Text = team["team_members"].ToString();
                 labelHeightValue.Text = team["height"].ToString();
                 labelWeightValue.Text = team["weight"].ToString();
                 labelNumCimsValue.Text = team["num_cims"].ToString();
@@ -45,11 +46,11 @@ namespace BertScoutView
                 labelShootLocationValue.Text = team["shoot_location"].ToString();
                 labelCanShootHighValue.Text = team["can_shoot_high"].ToString();
                 labelCanShootLowValue.Text = team["can_shoot_low"].ToString();
-                //labelFloorPickupFuelValue.Text = team["floor_pickup_fuel"].ToString();
+                labelFloorPickupFuelValue.Text = team["floor_pickup_fuel"].ToString();
                 labelTopLoadFuelValue.Text = team["top_loader"].ToString();
                 labelVisionSensorValue.Text = team["auto_aim"].ToString();
                 labelCanCarryGearValue.Text = team["can_carry_gear"].ToString();
-                //labelFloorPickupGearValue.Text = team["floor_pickup_gear"].ToString();
+                labelFloorPickupGearValue.Text = team["floor_pickup_gear"].ToString();
                 labelCanClimbValue.Text = team["can_climb"].ToString();
                 labelUseOwnRopeValue.Text = team["own_rope"].ToString();
 
