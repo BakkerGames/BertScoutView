@@ -69,17 +69,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConvertToCSV.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTeamPit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeamPit.Designer.cs">
+      <DependentUpon>FormTeamPit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTeamPix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTeamPix.Designer.cs">
+      <DependentUpon>FormTeamPix.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StandInfoItem.cs" />
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeamPit.resx">
+      <DependentUpon>FormTeamPit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTeamPix.resx">
+      <DependentUpon>FormTeamPix.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
