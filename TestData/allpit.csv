@@ -1,0 +1,2 @@
+team	team_name	team_years	team_members	height	weight	num_cims	max_speed	wheel_type	wheel_layout	max_fuel	shoot_speed	shoot_location	can_shoot_high	can_shoot_low	floor_pickup_fuel	top_loader	auto_aim	can_carry_gear	floor_pickup_gear	can_climb	own_rope	start_left	start_center	start_right	auto_num_modes	auto_base_line	auto_place_gear	auto_high_goal	auto_low_goal	auto_hopper	team_rating	comment	scout_name
+133	BERT	1	1	1	1	1	1	Abc	Def	5	1	Near	True	True	True	True	True	True	True	True	True	True	True	True	1	True	True	True	True	True	5	Go BERT!	Scott

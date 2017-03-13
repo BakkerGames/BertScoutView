@@ -1,0 +1,8 @@
+match_no	team	alliance_red_blue	auto_score_high	auto_score_low	auto_base_line	auto_place_gear	auto_open_hopper	tele_score_high	tele_score_low	tele_gears_placed	tele_penalties	tele_climbed	tele_touchpad	stand_comment	scout_name
+1	58	Red	0	0	False	False	False	0	0	0	0	False	False	Broken	scott
+1	133	Blue	1	1	True	True	True	1	1	2	1	True	True	Asdfasfasf	Scott
+2	58	Red	0	0	False	False	False	0	0	0	0	True	True	Broken	scott
+2	133	Blue	9	8	True	True	True	5	4	5	4	True	True	We did it all	scott
+3	133	Red	0	0	False	False	False	0	0	0	0	False	False		Scott
+4	133	Red	0	0	False	False	False	0	0	0	0	False	False		Scott
+5	172	Red	0	0	True	False	False	0	0	0	0	False	False		Scott
