@@ -8,7 +8,7 @@ namespace BertScoutView
     public partial class FormMain : Form
     {
         private int minDBVersion = 24;
-        private int currDBVersion = 25;
+        private int currDBVersion = 26;
 
         private JSONObject allPit;
         private JSONObject allStand;
@@ -96,6 +96,10 @@ namespace BertScoutView
                     }
                     if (!found)
                     {
+                        if (currTeam.ContainsKey("_id"))
+                        {
+                            currTeam.Remove("_id");
+                        }
                         ((JSONArray)allPit["pit_data"]).Add(currTeam);
                     }
                 }
@@ -139,6 +143,10 @@ namespace BertScoutView
                     }
                     if (!found)
                     {
+                        if (currTeam.ContainsKey("_id"))
+                        {
+                            currTeam.Remove("_id");
+                        }
                         ((JSONArray)allStand["stand_data"]).Add(currTeam);
                     }
                 }
