@@ -224,6 +224,7 @@ namespace BertScoutView
                 dataGridViewStand.Rows[row].Cells["AutoScoreHigh"].Value = (int)currMatchTeam["auto_score_high"];
                 dataGridViewStand.Rows[row].Cells["AutoScoreLow"].Value = (int)currMatchTeam["auto_score_low"];
                 dataGridViewStand.Rows[row].Cells["AutoBaseline"].Value = (bool)currMatchTeam["auto_base_line"];
+                dataGridViewStand.Rows[row].Cells["AutoPlaceGear"].Value = (bool)currMatchTeam["auto_place_gear"];
                 dataGridViewStand.Rows[row].Cells["AutoOpenHopper"].Value = (bool)currMatchTeam["auto_open_hopper"];
                 dataGridViewStand.Rows[row].Cells["TeleScoreHigh"].Value = (int)currMatchTeam["tele_score_high"];
                 dataGridViewStand.Rows[row].Cells["TeleScoreLow"].Value = (int)currMatchTeam["tele_score_low"];

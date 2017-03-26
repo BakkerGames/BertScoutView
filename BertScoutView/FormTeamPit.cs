@@ -79,7 +79,7 @@ namespace BertScoutView
 
                 labelAutoModesValue.Text = team["auto_num_modes"].ToString();
                 labelAutoCrossBaselineValue.Text = team["auto_base_line"].ToString();
-                labelAutoPlaceGearValue.Text = team["auto_place_gear"].ToString();
+                labelAutoPlaceGearValue.Text = team["auto_place_gear_center"].ToString();
                 labelAutoHighGoalValue.Text = team["auto_high_goal"].ToString();
                 labelAutoLowGoalValue.Text = team["auto_low_goal"].ToString();
                 labelAutoOpenHopperValue.Text = team["auto_hopper"].ToString();
