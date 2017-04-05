@@ -52,10 +52,6 @@
     <StartupObject>BertScoutView.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Common.JSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Common.JSON.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -137,6 +133,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common.JSON\Common.JSON\Common.JSON.csproj">
+      <Project>{ef7b4f31-17b9-40ff-8334-196056bab2d2}</Project>
+      <Name>Common.JSON</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

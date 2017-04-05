@@ -112,7 +112,8 @@ namespace BertScoutView
 
             if (File.Exists($"{filePath}\\allstand.json"))
             {
-                allStand = JSONObject.FromString(File.ReadAllText($"{filePath}\\allstand.json"));
+                string allText = File.ReadAllText($"{filePath}\\allstand.json");
+                allStand = JSONObject.FromString(allText);
             }
             else
             {
